@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.mapa-mental {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nodo {
+    position: absolute;
+    background-color: #e63946; /* Rojo */
+    color: #fff;
+    border: 2px solid #1d3557; /* Azul oscuro */
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+}
+
+.principal {
+    font-size: 18px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    background-color: #1d3557; /* Azul oscuro */
+    color: #fff;
+    border: 2px solid #e63946; /* Rojo */
+}
+
+.nodo-terminos {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#concepto { top: 10%; left: 50%; width: 200px; }
+#generaciones { top: 30%; left: 75%; width: 250px; }
+#responsabilidad { top: 70%; left: 75%; width: 250px; }
+#caracteristicas { top: 90%; left: 50%; width: 250px; }
+#violaciones { top: 70%; left: 25%; width: 250px; }
+#dih { to
