@@ -11,8 +11,8 @@ body {
 
 .mapa-mental {
     position: relative;
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 .nodo {
     position: absolute;
     background-color: #e63946; /* Rojo */
-    color: #000;
+    color: #fff;
     border: 2px solid #1d3557; /* Azul oscuro */
     border-radius: 8px;
     padding: 10px;
@@ -31,10 +31,10 @@ body {
 }
 
 .principal {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
-    width: 180px;
-    height: 60px;
+    width: 200px;
+    height: 80px;
     top: 50%;
     left: 50%;
     background-color: #1d3557; /* Azul oscuro */
@@ -43,25 +43,42 @@ body {
 }
 
 .nodo-terminos {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 5px;
 }
 
-#concepto { top: 20%; left: 50%; width: 220px; }
-#generaciones { top: 35%; left: 80%; width: 270px; }
-#responsabilidad { top: 70%; left: 80%; width: 270px; }
-#caracteristicas { top: 85%; left: 50%; width: 270px; }
-#violaciones { top: 70%; left: 20%; width: 270px; }
-#dih { top: 35%; left: 20%; width: 270px; }
+#concepto { top: 15%; left: 50%; width: 240px; height: 120px; }
+#generaciones { top: 30%; left: 75%; width: 270px; height: 140px; }
+#responsabilidad { top: 65%; left: 75%; width: 270px; height: 140px; }
+#caracteristicas { top: 85%; left: 50%; width: 270px; height: 140px; }
+#violaciones { top: 65%; left: 25%; width: 270px; height: 140px; }
+#dih { top: 30%; left: 25%; width: 270px; height: 140px; }
 
 .secundario {
     background-color: #a8dadc; /* Celeste */
     border: 2px solid #457b9d; /* Azul */
+    padding: 15px;
 }
 
 .terciario {
     background-color: #f1faee; /* Blanco */
     color: #1d3557; /* Azul oscuro */
     margin: 5px auto;
-    font-size: 10px;
+    font-size: 14px;
+}
+
+/* Media query to adjust for printing */
+@media print {
+    body, .mapa-mental {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nodo {
+        page-break-inside: avoid;
+    }
+
+    .principal, .secundario {
+        border: 2px solid #000; /* Ensure border is visible when printing */
+    }
 }
