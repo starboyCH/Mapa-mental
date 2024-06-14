@@ -31,7 +31,7 @@ body {
 }
 
 .principal {
-    font-size: 28px; /* Incrementar tamaño del título */
+    font-size: 32px; /* Incrementar tamaño del título */
     font-weight: bold;
     width: 240px;
     height: 100px;
@@ -43,16 +43,16 @@ body {
 }
 
 .nodo-terminos {
-    font-size: 16px;
-    margin-top: 5px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-#concepto { top: 15%; left: 50%; width: 220px; height: 100px; }
-#generaciones { top: 30%; left: 75%; width: 220px; height: 120px; }
-#responsabilidad { top: 65%; left: 75%; width: 220px; height: 120px; }
-#caracteristicas { top: 85%; left: 50%; width: 220px; height: 120px; }
-#violaciones { top: 65%; left: 25%; width: 220px; height: 120px; }
-#dih { top: 30%; left: 25%; width: 220px; height: 120px; }
+#concepto { top: 20%; left: 50%; width: 250px; height: 150px; }
+#generaciones { top: 40%; left: 75%; width: 250px; height: 150px; }
+#responsabilidad { top: 60%; left: 75%; width: 250px; height: 150px; }
+#caracteristicas { top: 80%; left: 50%; width: 250px; height: 150px; }
+#violaciones { top: 60%; left: 25%; width: 250px; height: 150px; }
+#dih { top: 40%; left: 25%; width: 250px; height: 150px; }
 
 .secundario {
     background-color: #a8dadc; /* Celeste */
@@ -66,4 +66,9 @@ body {
     color: #1d3557; /* Azul oscuro */
     margin: 5px auto;
     font-size: 14px;
+}
+
+.nodo span {
+    font-weight: bold; /* Font weight para títulos */
+    display: block; /* Bloque para título */
 }
