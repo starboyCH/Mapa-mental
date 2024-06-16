@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, #FCD116 0%, #FCD116 33%, #0033A0 33%, #0033A0 66%, #CE1126 66%, #CE1126 100%);
+    background: linear-gradient(#FCD116, #0033A0, #CE1126);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 0;https://starboych.github.io/Mapa-mental/
     overflow: hidden;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .nodo-terminos {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -57,7 +57,7 @@ body {
 .secundario {
     background-color: #660000; /* Vinotinto */
     border: 2px solid #fff; /* Blanco */
-    font-size: 18px; /* Incrementar tamaño del texto en nodos secundarios */
+    font-size: 20px; /* Incrementar tamaño del texto en nodos secundarios */
     padding: 20px; /* Ajustar padding */
 }
 
@@ -65,7 +65,7 @@ body {
     background-color: #f1faee; /* Blanco */
     color: #1d3557; /* Azul oscuro */
     margin: 5px auto;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nodo span {
