@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe200; /* Amarillo */
+    background-color: #d3d3d3; /* Gris claro */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body {
     color: #000; /* Negro para nodos */
     border: 2px solid #1d3557; /* Azul oscuro */
     border-radius: 8px;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     transform: translate(-50%, -50%);
@@ -43,21 +43,21 @@ body {
 }
 
 .nodo-terminos {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
-#concepto { top: 15%; left: 50%; width: 250px; height: 150px; }
-#generaciones { top: 35%; left: 75%; width: 250px; height: 150px; }
-#responsabilidad { top: 55%; left: 75%; width: 250px; height: 150px; }
-#caracteristicas { top: 85%; left: 50%; width: 250px; height: 150px; }
-#violaciones { top: 55%; left: 25%; width: 250px; height: 150px; }
-#dih { top: 35%; left: 25%; width: 250px; height: 150px; }
+#concepto { top: 20%; left: 50%; width: 250px; height: 180px; }
+#generaciones { top: 40%; left: 85%; width: 250px; height: 180px; }
+#responsabilidad { top: 60%; left: 85%; width: 250px; height: 180px; }
+#caracteristicas { top: 80%; left: 50%; width: 250px; height: 180px; }
+#violaciones { top: 60%; left: 15%; width: 250px; height: 180px; }
+#dih { top: 40%; left: 15%; width: 250px; height: 180px; }
 
 .secundario {
     background-color: #a8dadc; /* Celeste */
     border: 2px solid #457b9d; /* Azul */
-    font-size: 20px; /* Incrementar tamaño del texto en nodos secundarios */
+    font-size: 18px; /* Incrementar tamaño del texto en nodos secundarios */
     padding: 20px; /* Ajustar padding */
 }
 
